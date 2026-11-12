@@ -155,6 +155,16 @@
     "motivacion": "Reforzar mis fundamentos sobre Kubernetes y Docker, y lograr certificarme y lograr la kubestronaut en un futuro"
   },
   {
+    "github": "Camilogigom",
+    "nombre": "Camilo Giraldo",
+    "rol": "Estudiante",
+    "linkedin": "https://www.linkedin.com/in/jcgiraldogo/",
+    "redes": [],
+    "rango": "⛵ Marinero",
+    "puntos": 60,
+    "motivacion": "Aprender sobre Docker y Kubernete. Aprovechadno al maximo estos cursos"
+  },
+  {
     "github": "sanjavier88",
     "nombre": "Jorge Alberto Monsalve Ruiz",
     "rol": "Estudiante",
@@ -395,16 +405,6 @@
     "rango": "⛵ Marinero",
     "puntos": 10,
     "motivacion": "Aprender para la certificación KCNA de Kubernetes y colaborar con la comunidad.  🏔️☕"
-  },
-  {
-    "github": "Camilogigom",
-    "nombre": "Camilo Giraldo",
-    "rol": "Estudiante",
-    "linkedin": "https://www.linkedin.com/in/jcgiraldogo/",
-    "redes": [],
-    "rango": "⛵ Marinero",
-    "puntos": 10,
-    "motivacion": "Aprender sobre Docker y Kubernete. Aprovechadno al maximo estos cursos"
   },
   {
     "github": "MateoOrozcoCano",
