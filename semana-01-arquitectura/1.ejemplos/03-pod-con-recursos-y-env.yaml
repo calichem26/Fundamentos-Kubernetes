@@ -1,3 +1,14 @@
+# ==============================================================================
+# ⚖️ EJEMPLO 03: Pod con Requests, Limits y Variables (Downward API)
+# ==============================================================================
+# Nombre del Pod en el clúster: pod-recursos-y-variables
+# Contenedor: app-demo (Busybox)
+# Variables: ENTORNO_APP, MENSAJE_BIENVENIDA, MI_POD_NOMBRE, MI_POD_IP
+# Recursos: requests (50m CPU / 64Mi RAM), limits (200m CPU / 128Mi RAM)
+# Ejecutar: kubectl apply -f 03-pod-con-recursos-y-env.yaml
+# Logs:     kubectl logs pod-recursos-y-variables -f
+# Limpiar:  kubectl delete -f 03-pod-con-recursos-y-env.yaml
+# ==============================================================================
 apiVersion: v1
 kind: Pod
 metadata:

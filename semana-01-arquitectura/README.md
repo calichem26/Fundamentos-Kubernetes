@@ -84,18 +84,19 @@ kubectl cluster-info
 kubectl get nodes
 ```
 
-### Paso 2: Despliega tu primer Pod (y tu primer Pod de Inferencia de IA 🤖)
+### Paso 2: Despliega tu primer Pod (y explora los 7 ejemplos prácticos)
 Explora la carpeta [`1.ejemplos`](./1.ejemplos) y aplica el primer Pod básico en tu clúster:
 ```bash
 kubectl apply -f semana-01-arquitectura/1.ejemplos/01-mi-primer-pod.yaml
 ```
-*(También puedes desplegar un Pod con dos contenedores en [`02-pod-multi-contenedor.yaml`](./1.ejemplos/02-pod-multi-contenedor.yaml), un **Pod de Inferencia de IA Local con Ollama** en [`06-pod-inferencia-ia-ollama.yaml`](./1.ejemplos/06-pod-inferencia-ia-ollama.yaml) o un **Pod con Observabilidad (Métricas Prometheus + Logs JSON)** en [`07-pod-observabilidad-metricas-logs.yaml`](./1.ejemplos/07-pod-observabilidad-metricas-logs.yaml) — [ver guía paso a paso](./1.ejemplos/README.md)).*
-
+> 💡 **Nota sobre los nombres:** El archivo es `01-mi-primer-pod.yaml`, pero el Pod creado en el clúster se llama **`hola-medellin`** (`metadata.name`).
 
 Revisa que esté corriendo (`Running`):
 ```bash
 kubectl get pods
 ```
+
+*(Tienes **7 ejemplos progresivos** en [`1.ejemplos/`](./1.ejemplos): Pod básico `hola-medellin`, multi-contenedor/sidecar `pod-dos-contenedores`, recursos/variables `pod-recursos-y-variables`, initContainers `pod-con-init-container`, sondas de salud `pod-con-health-checks`, inferencia de IA local `pod-inferencia-ia` y observabilidad `pod-observabilidad-kubecafe` — [ver catálogo y comandos paso a paso](./1.ejemplos/README.md)).*
 
 ### Paso 3: Conéctate a tu Pod desde tu navegador
 Usa `port-forward` para abrir un túnel desde tu computador hasta el Pod:

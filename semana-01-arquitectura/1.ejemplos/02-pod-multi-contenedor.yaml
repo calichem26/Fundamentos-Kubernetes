@@ -1,3 +1,14 @@
+# ==============================================================================
+# 🥛 EJEMPLO 02: Pod Multi-Contenedor (Patrón Sidecar con emptyDir)
+# ==============================================================================
+# Nombre del Pod en el clúster: pod-dos-contenedores
+# Contenedores:
+#   1. servidor-web (Nginx en puerto 80 - Taza Principal)
+#   2. generador-contenido (Busybox actualizando index.html - Sidecar)
+# Ejecutar: kubectl apply -f 02-pod-multi-contenedor.yaml
+# Probar:   kubectl port-forward pod/pod-dos-contenedores 8080:80 -> http://localhost:8080
+# Limpiar:  kubectl delete -f 02-pod-multi-contenedor.yaml
+# ==============================================================================
 apiVersion: v1
 kind: Pod
 metadata:

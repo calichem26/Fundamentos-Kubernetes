@@ -1,3 +1,11 @@
+# ==============================================================================
+# ☕ EJEMPLO 01: Tu Primer Pod Básico en Kubernetes (Nginx)
+# ==============================================================================
+# Nombre del Pod en el clúster: hola-medellin
+# Ejecutar: kubectl apply -f 01-mi-primer-pod.yaml
+# Probar:   kubectl port-forward pod/hola-medellin 8080:80 -> http://localhost:8080
+# Limpiar:  kubectl delete -f 01-mi-primer-pod.yaml
+# ==============================================================================
 apiVersion: v1
 kind: Pod
 metadata:

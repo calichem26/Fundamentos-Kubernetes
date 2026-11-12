@@ -1,3 +1,13 @@
+# ==============================================================================
+# 🧼 EJEMPLO 04: Pod con InitContainer (Inicialización Previa Bloqueante)
+# ==============================================================================
+# Nombre del Pod en el clúster: pod-con-init-container
+# InitContainer: inicializador (Busybox preparando /trabajo/index.html)
+# Contenedor Principal: servidor-web (Nginx en puerto 80)
+# Ejecutar: kubectl apply -f 04-pod-con-init-container.yaml
+# Probar:   kubectl port-forward pod/pod-con-init-container 8080:80 -> http://localhost:8080
+# Limpiar:  kubectl delete -f 04-pod-con-init-container.yaml
+# ==============================================================================
 apiVersion: v1
 kind: Pod
 metadata:

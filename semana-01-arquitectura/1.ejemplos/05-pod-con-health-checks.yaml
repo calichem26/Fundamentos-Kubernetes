@@ -1,3 +1,15 @@
+# ==============================================================================
+# 🌡️ EJEMPLO 05: Pod con Sondas de Salud (Readiness y Liveness Probes)
+# ==============================================================================
+# Nombre del Pod en el clúster: pod-con-health-checks
+# Contenedor: servidor-saludable (Nginx en puerto 80)
+# Sondas:
+#   - readinessProbe: HTTP GET / :80 (initialDelay: 3s, period: 5s)
+#   - livenessProbe:  HTTP GET / :80 (initialDelay: 5s, period: 10s)
+# Ejecutar: kubectl apply -f 05-pod-con-health-checks.yaml
+# Probar:   kubectl describe pod pod-con-health-checks
+# Limpiar:  kubectl delete -f 05-pod-con-health-checks.yaml
+# ==============================================================================
 apiVersion: v1
 kind: Pod
 metadata:
