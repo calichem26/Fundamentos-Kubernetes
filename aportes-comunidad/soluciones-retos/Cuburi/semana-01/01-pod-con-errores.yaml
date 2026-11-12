@@ -1,0 +1,18 @@
+# 🚨 RETO 1 (Nivel Fácil): El Pod que no encuentra su ropa 🚨
+# Síntoma: Al hacer 'kubectl get pods', el estado se queda en ErrImagePull o ImagePullBackOff.
+# Pista: Usa 'kubectl describe pod reto-01-imagen' y lee la sección final llamada "Events".
+# Respuesta: Imagen incorrecta: La imagen nginx:version-fantasma-999 no existe, por lo que Kubernetes no puede descargarla y el Pod entra en estado ErrImagePull o ImagePullBackOff.
+#            Puerto inválido: El puerto 80809 está fuera del rango permitido (1–65535), por lo que el API Server rechaza la creación del Pod.
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: reto-01-imagen
+  labels:
+    reto: "1"
+spec:
+  containers:
+    - name: servidor-web
+      image: nginx:alpine
+      ports:
+        - containerPort: 80
