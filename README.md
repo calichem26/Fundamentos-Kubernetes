@@ -392,9 +392,16 @@ Si no puedes instalar Docker Desktop o tu máquina no tiene suficiente memoria R
       <sub>🧭 Timonel • <b>100 XP</b></sub>
     </td>
     <td align="center" width="140">
+      <a href="./aportes-comunidad/soluciones-retos/Cuburi/README.md" title="Yorman Agudelo (@Cuburi) — 100 XP">
+        <img src="https://github.com/Cuburi.png?size=100" width="64" height="64" style="border-radius: 50%;" alt="Cuburi"/><br/>
+        <sub><b>🥉 Yorman Agudelo</b></sub>
+      </a><br/>
+      <sub>🧭 Timonel • <b>100 XP</b></sub>
+    </td>
+    <td align="center" width="140">
       <a href="./aportes-comunidad/soluciones-retos/devdavco/README.md" title="David Corrales (@devdavco) — 60 XP">
         <img src="https://github.com/devdavco.png?size=100" width="64" height="64" style="border-radius: 50%;" alt="devdavco"/><br/>
-        <sub><b>🥉 David Corrales</b></sub>
+        <sub><b>David Corrales</b></sub>
       </a><br/>
       <sub>⛵ Marinero • <b>60 XP</b></sub>
     </td>
@@ -412,6 +419,8 @@ Si no puedes instalar Docker Desktop o tu máquina no tiene suficiente memoria R
       </a><br/>
       <sub>⛵ Marinero • <b>60 XP</b></sub>
     </td>
+  </tr>
+  <tr>
     <td align="center" width="140">
       <a href="./aportes-comunidad/soluciones-retos/parte193/README.md" title="Johan Andrés López Zuluaga (@parte193) — 60 XP">
         <img src="https://github.com/parte193.png?size=100" width="64" height="64" style="border-radius: 50%;" alt="parte193"/><br/>
@@ -419,8 +428,6 @@ Si no puedes instalar Docker Desktop o tu máquina no tiene suficiente memoria R
       </a><br/>
       <sub>⛵ Marinero • <b>60 XP</b></sub>
     </td>
-  </tr>
-  <tr>
     <td align="center" width="140">
       <a href="./aportes-comunidad/soluciones-retos/juanjosegonzalezrosales/README.md" title="Juan José González Rosales (@juanjosegonzalezrosales) — 60 XP">
         <img src="https://github.com/juanjosegonzalezrosales.png?size=100" width="64" height="64" style="border-radius: 50%;" alt="juanjosegonzalezrosales"/><br/>
@@ -439,13 +446,6 @@ Si no puedes instalar Docker Desktop o tu máquina no tiene suficiente memoria R
       <a href="./aportes-comunidad/soluciones-retos/marnathali/README.md" title="Nathali Anzola (@marnathali) — 60 XP">
         <img src="https://github.com/marnathali.png?size=100" width="64" height="64" style="border-radius: 50%;" alt="marnathali"/><br/>
         <sub><b>Nathali Anzola</b></sub>
-      </a><br/>
-      <sub>⛵ Marinero • <b>60 XP</b></sub>
-    </td>
-    <td align="center" width="140">
-      <a href="./aportes-comunidad/soluciones-retos/Cuburi/README.md" title="Yorman Agudelo (@Cuburi) — 60 XP">
-        <img src="https://github.com/Cuburi.png?size=100" width="64" height="64" style="border-radius: 50%;" alt="Cuburi"/><br/>
-        <sub><b>Yorman Agudelo</b></sub>
       </a><br/>
       <sub>⛵ Marinero • <b>60 XP</b></sub>
     </td>

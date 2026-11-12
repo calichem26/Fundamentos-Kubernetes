@@ -65,6 +65,16 @@
     "motivacion": "Reforzar mis conocimientos y aportar en lo que mas se pueda"
   },
   {
+    "github": "Cuburi",
+    "nombre": "Yorman Agudelo",
+    "rol": "Fullstack Developer",
+    "linkedin": "https://www.linkedin.com/in/yorman-agudelo/",
+    "redes": [],
+    "rango": "🧭 Timonel",
+    "puntos": 100,
+    "motivacion": "Aprovechar al maximo esta oportunidad de aprender"
+  },
+  {
     "github": "devdavco",
     "nombre": "David Corrales",
     "rol": "Desarrollador Fullstack Java",
@@ -133,16 +143,6 @@
     "rango": "⛵ Marinero",
     "puntos": 60,
     "motivacion": "Aprender a contenizar y desplegar mis aplicaciones con Docker y Kubernetes"
-  },
-  {
-    "github": "Cuburi",
-    "nombre": "Yorman Agudelo",
-    "rol": "Fullstack Developer",
-    "linkedin": "https://www.linkedin.com/in/yorman-agudelo/",
-    "redes": [],
-    "rango": "⛵ Marinero",
-    "puntos": 60,
-    "motivacion": "Aprovechar al maximo esta oportunidad de aprender"
   },
   {
     "github": "DrSiker",
