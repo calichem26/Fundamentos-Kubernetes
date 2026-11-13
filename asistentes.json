@@ -75,6 +75,16 @@
     "motivacion": "Aprovechar al maximo esta oportunidad de aprender"
   },
   {
+    "github": "parte193",
+    "nombre": "Johan Andrés López Zuluaga",
+    "rol": "Desarrollador Full-Stack",
+    "linkedin": "https://www.linkedin.com/in/johan-andres-lopez-zuluaga",
+    "redes": [],
+    "rango": "🧭 Timonel",
+    "puntos": 100,
+    "motivacion": "Entender de verdad cómo funcionan los contenedores y poder llevar mis propias apps de mi computador a producción sin miedo"
+  },
+  {
     "github": "devdavco",
     "nombre": "David Corrales",
     "rol": "Desarrollador Fullstack Java",
@@ -103,16 +113,6 @@
     "rango": "⛵ Marinero",
     "puntos": 60,
     "motivacion": "Quiero aprender todo lo posible de la comunidad y si es posible aportar."
-  },
-  {
-    "github": "parte193",
-    "nombre": "Johan Andrés López Zuluaga",
-    "rol": "Desarrollador Full-Stack",
-    "linkedin": "https://www.linkedin.com/in/johan-andres-lopez-zuluaga",
-    "redes": [],
-    "rango": "⛵ Marinero",
-    "puntos": 60,
-    "motivacion": "Entender de verdad cómo funcionan los contenedores y poder llevar mis propias apps de mi computador a producción sin miedo"
   },
   {
     "github": "juanjosegonzalezrosales",
