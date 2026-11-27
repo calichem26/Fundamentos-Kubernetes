@@ -1,0 +1,24 @@
+# ==============================================================================
+# 💥 RETO ROTO 04: HTTPRoute Desconectado del Gateway y Backend
+# Síntoma: La ruta `kubecafe-api-route` queda en estado `Accepted: False` o no enruta,
+#          porque apunta a un Gateway inexistente (`gateway-fantasma`) y a un puerto
+#          equivocado (`8080`) en `cocina-svc`.
+# Objetivo: Conecta el HTTPRoute al Gateway `kubecafe-gateway` y al backend `cocina-svc`
+#           en el puerto correcto (`80`).
+# ==============================================================================
+apiVersion: gateway.networking.k8s.io/v1
+kind: HTTPRoute
+metadata:
+  name: kubecafe-api-route
+spec:
+  parentRefs:
+    - name: kubecafe-gateway # se corrige el nombre 
+  rules:
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /api
+      backendRefs:
+        - name: cocina-svc
+          port: 80 # se organiza puerto de 8080 a 80 que es el puerto del servicio
+                   # se debe configurar primero los CRDs

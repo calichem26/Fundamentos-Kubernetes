@@ -1,0 +1,39 @@
+# ==============================================================================
+# 💥 RETO ROTO 01: Service sin Endpoints (Selector Mismatch)
+# Síntoma: El Service se crea sin errores, pero al consultar `kubectl get endpoints barra-svc`
+#          aparece `<none>` y las peticiones fallan con timeout / connection refused.
+# Objetivo: Haz que `barra-svc` descubra correctamente los Pods de `kubecafe-barra`.
+# ==============================================================================
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kubecafe-barra
+  labels:
+    app: kubecafe-barra
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: kubecafe-barra
+  template:
+    metadata:
+      labels:
+        app: kubecafe-barra
+    spec:
+      containers:
+        - name: barra
+          image: nginx:alpine
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: barra-svc
+spec:
+  type: ClusterIP
+  selector:
+    app: kubecafe-barra # la etiqueta que busca el selector debe ser la misma que el label del deployment.
+  ports:
+    - port: 80
+      targetPort: 80 # esta bien porque el contenedor escucha por el containerPort: 80
