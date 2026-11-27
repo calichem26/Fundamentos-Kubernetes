@@ -293,12 +293,12 @@
     </td>
     <td align="center" width="175">
       <b>🏅 #5</b><br/>
-      <a href="./aportes-comunidad/soluciones-retos/RAVILA28/README.md" title="Portafolio de Fernando Avila (@RAVILA28)">
-        <img src="https://github.com/RAVILA28.png?size=120" width="68" height="68" style="border-radius: 50%;" alt="RAVILA28"/><br/>
-        <b>Fernando Avila</b>
+      <a href="./aportes-comunidad/soluciones-retos/calichem26/README.md" title="Portafolio de Carlos Andres Montoya Alzate (@calichem26)">
+        <img src="https://github.com/calichem26.png?size=120" width="68" height="68" style="border-radius: 50%;" alt="calichem26"/><br/>
+        <b>Carlos Andres</b>
       </a><br/>
-      <sub>🧭 Timonel • <b>180 XP</b></sub><br/>
-      <a href="./aportes-comunidad/soluciones-retos/RAVILA28/README.md"><b>🎓 Ver Portafolio</b></a>
+      <sub>🧭 Timonel • <b>220 XP</b></sub><br/>
+      <a href="./aportes-comunidad/soluciones-retos/calichem26/README.md"><b>🎓 Ver Portafolio</b></a>
     </td>
   </tr>
 </table>
@@ -706,20 +706,20 @@ Si no puedes instalar Docker Desktop o tu máquina no tiene suficiente memoria R
       <sub><a href="./aportes-comunidad/soluciones-retos/Arlex0296/README.md">🎓 Portafolio</a></sub>
     </td>
     <td align="center" width="140">
+      <a href="./aportes-comunidad/soluciones-retos/calichem26/README.md" title="Carlos Andres Montoya Alzate (@calichem26) — 220 XP">
+        <img src="https://github.com/calichem26.png?size=100" width="64" height="64" style="border-radius: 50%;" alt="calichem26"/><br/>
+        <sub><b>Carlos Andres</b></sub>
+      </a><br/>
+      <sub>🧭 Timonel • <b>220 XP</b></sub><br/>
+      <sub><a href="./aportes-comunidad/soluciones-retos/calichem26/README.md">🎓 Portafolio</a></sub>
+    </td>
+    <td align="center" width="140">
       <a href="./aportes-comunidad/soluciones-retos/RAVILA28/README.md" title="Fernando Avila (@RAVILA28) — 180 XP">
         <img src="https://github.com/RAVILA28.png?size=100" width="64" height="64" style="border-radius: 50%;" alt="RAVILA28"/><br/>
         <sub><b>Fernando Avila</b></sub>
       </a><br/>
       <sub>🧭 Timonel • <b>180 XP</b></sub><br/>
       <sub><a href="./aportes-comunidad/soluciones-retos/RAVILA28/README.md">🎓 Portafolio</a></sub>
-    </td>
-    <td align="center" width="140">
-      <a href="./aportes-comunidad/soluciones-retos/calichem26/README.md" title="Carlos Andres Montoya Alzate (@calichem26) — 180 XP">
-        <img src="https://github.com/calichem26.png?size=100" width="64" height="64" style="border-radius: 50%;" alt="calichem26"/><br/>
-        <sub><b>Carlos Andres</b></sub>
-      </a><br/>
-      <sub>🧭 Timonel • <b>180 XP</b></sub><br/>
-      <sub><a href="./aportes-comunidad/soluciones-retos/calichem26/README.md">🎓 Portafolio</a></sub>
     </td>
   </tr>
   <tr>
