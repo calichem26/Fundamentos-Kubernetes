@@ -1,0 +1,28 @@
+# 💥 Reto 03: PersistentVolumeClaim atascado en Pending
+# Objetivo: El PVC nunca pasa a Bound porque su StorageClass y capacidad no coinciden con el PV.
+# Pista: Usa `kubectl get pv,pvc` y `kubectl describe pvc bodega-reto-03-pvc`.
+
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: bodega-reto-03-pv
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: manual
+  hostPath:
+    path: /tmp/reto-03-bodega
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: bodega-reto-03-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: manual
+  resources:
+    requests:
+      storage: 1Gi

@@ -1,0 +1,19 @@
+# 💥 Reto 04: volumeMounts no coincide con volumes
+# Objetivo: Al aplicar el Pod, el API Server lo rechaza porque el nombre del volumeMount no existe en volumes.
+# Pista: Compara `spec.containers[0].volumeMounts[0].name` con `spec.volumes[0].name`.
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-volumen-reto-04
+spec:
+  containers:
+    - name: app
+      image: busybox:1.36
+      command: ["sh", "-c", "ls -la /datos && sleep 3600"]
+      volumeMounts:
+        - name: volumen-bodega
+          mountPath: /datos
+  volumes:
+    - name: volumen-bodega
+      emptyDir: {}

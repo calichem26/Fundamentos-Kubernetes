@@ -1,0 +1,28 @@
+# 💥 Reto 01: ConfigMap con clave inexistente (CreateContainerConfigError)
+# Objetivo: El Pod falla al iniciar porque intenta leer una clave que no existe en el ConfigMap.
+# Pista: Usa `kubectl describe pod barista-reto-01` para ver qué clave falta.
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: menu-precios-cfg
+data:
+  PRECIO_TINTO: "3500"
+  MONEDA: "COP"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: barista-reto-01
+spec:
+  containers:
+    - name: barista
+      image: busybox:1.36
+      command: ["sh", "-c", "echo Precio: $PRECIO_CAFE && sleep 3600"]
+      env:
+        - name: PRECIO_CAFE
+          valueFrom:
+            configMapKeyRef:
+              name: menu-precios-cfg
+              key: PRECIO_ESPRESSO
+              optional: true
