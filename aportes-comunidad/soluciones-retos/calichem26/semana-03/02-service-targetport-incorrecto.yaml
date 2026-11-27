@@ -1,0 +1,39 @@
+# ==============================================================================
+# 💥 RETO ROTO 02: TargetPort Incorrecto (Connection Refused)
+# Síntoma: El Service SÍ tiene Endpoints, pero al hacer `curl http://caja-svc`
+#          el tráfico llega a un puerto donde Nginx no está escuchando.
+# Objetivo: Corrige el `targetPort` del Service para que coincida con el contenedor.
+# ==============================================================================
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kubecafe-caja
+  labels:
+    app: kubecafe-caja
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kubecafe-caja
+  template:
+    metadata:
+      labels:
+        app: kubecafe-caja
+    spec:
+      containers:
+        - name: caja
+          image: nginx:alpine
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: caja-svc
+spec:
+  type: ClusterIP
+  selector:
+    app: kubecafe-caja
+  ports:
+    - port: 80
+      targetPort: 80 # Se corrige de 9090 a 80 que el  containerPort: 80 del Deployment
